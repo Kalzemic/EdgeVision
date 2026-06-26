@@ -1,0 +1,8 @@
+path: /home/kalzemic/SchoolWork/computer_vision/final_project/data/overfit
+train: images/train
+val: images/train
+
+nc: 2
+names:
+  0: person
+  1: vehicle

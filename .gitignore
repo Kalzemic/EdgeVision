@@ -1,0 +1,11 @@
+
+sam3_repo/
+*.pt
+tests
+data/
+runs/
+runs
+*.png
+*.save
+
+__pycache__/
