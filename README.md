@@ -46,7 +46,7 @@ Trains YOLOv8s on the SAM3-generated labels. Augmentation was tuned against the 
 ### 5. Verification (`label_test.py`, `file_test.py`, `check.jpg`)
 Quick smoke tests: visualize generated labels on random samples, verify file layout, sanity-check a single image.
 
-### 6. Deployment (not in this repo)
+### 6. Deployment 
 Trained weights are exported to ONNX and then to a TensorRT engine, and served from a Python inference script on a Jetson Orin Nano. A markdown cell in the notebook displays the Jetson inference server code
 
 ---
